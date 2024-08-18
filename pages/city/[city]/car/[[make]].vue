@@ -1,5 +1,5 @@
 <template>
-	<div>
-		CITY AND MAKE
-	</div>
+<div>
+	<CarCards />
+</div>
 </template>

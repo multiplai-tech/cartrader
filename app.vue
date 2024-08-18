@@ -1,5 +1,13 @@
+<script setup>
+useHead({
+  titleTemplate: (titleChunk) => {
+    return titleChunk ? `${titleChunk} - LoremIpsum` : 'LoremIpsum';
+  }
+})
+</script>
+
 <template>
-	<div>
-		<NuxtPage />
-	</div>
+<NuxtLayout>
+	<NuxtPage />
+</NuxtLayout>
 </template>
