@@ -25,7 +25,7 @@ useHead({
 			<p>LOREM IPSUM</p>
 		</div>
 		<div class="-mt-72 flex justify-center">
-			<img src="/public/img/car-1.png" class="aspect-auto h-[600px]">
+			<NuxtImg src="/public/img/car-1.png" class="aspect-auto h-[600px]" />
 		</div>
 	</div>
 	<div class="grid mt-10 md:mt-0 lg:grid-cols-3 auto-rows-max gap-2 w-full h-auto px-2 lg:px-16">
