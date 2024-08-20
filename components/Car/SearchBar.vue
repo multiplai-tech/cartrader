@@ -20,14 +20,12 @@ const handleSearch = () => {
 		:class="cityError ? 'border border-red-500 rounded-tr-none rounded-br-none' : ''"
 		placeholder="Search by City">
 	<input
-		v-model="city"
 		@keyup.enter="handleSearch"
 		type="text"
 		class="bg-[#f5f6fa] w-full rounded-md p-5 focus:outline-none"
 		:class="cityError ? 'border border-red-500 rounded-tr-none rounded-br-none' : ''"
 		placeholder="From">
 	<input
-		v-model="city"
 		@keyup.enter="handleSearch"
 		type="text"
 		class="bg-[#f5f6fa] w-full rounded-md p-5 focus:outline-none"
