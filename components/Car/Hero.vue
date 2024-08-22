@@ -30,7 +30,7 @@ useHead({
 	</div>
 	<div class="grid mt-10 md:mt-0 lg:grid-cols-3 auto-rows-max gap-2 w-full h-auto px-2 lg:px-16">
 		<div class="h-[300px] overflow-hidden rounded-xl lg:max-h-[70vh] lg:order-none lg:h-screen lg:col-span-2">
-			<div class="transition-transform duration-300 transform lg:scale-100 lg:hover:scale-110 peer h-screen lg:h-screen bg-no-repeat bg-contain scale-[2] bg-[20px_150px] lg:bg-cover bg-bottom bg-[url('https://images.unsplash.com/photo-1592840062661-a5a7f78e2056?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] lg:bg-[center_-100px]"></div>
+			<div class="transition-transform duration-300 transform scale-150 bg-[center_100px] peer h-screen lg:h-screen bg-no-repeat bg-contain bg-[url('https://images.unsplash.com/photo-1592840062661-a5a7f78e2056?q=80&w=2532&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] lg:bg-[center_-200px]"></div>
 		</div>
 		<div class="bg-[#1c1c1c] text-white rounded-xl flex flex-col w-100 lg:h-[70vh] p-5 lg:p-10">
 			<p class="text-3xl mb-10 lg:text-6xl font-bold">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
