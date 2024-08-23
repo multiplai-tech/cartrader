@@ -2,10 +2,8 @@
 export default defineNuxtConfig({
 	compatibilityDate: '2024-04-03',
 	runtimeConfig: {
-		public: {
-			supabaseUrl: process.env.SUPABASE_URL,
-			supabaseKey: process.env.SUPABASE_KEY,
-		}
+		url: process.env.SUPABASE_URL,
+		key: process.env.SUPABASE_KEY,
 	},
 	devtools: { enabled: true },
 	modules: ['@nuxtjs/tailwindcss', '@nuxt/image', '@vueuse/nuxt', "@nuxtjs/supabase"],
