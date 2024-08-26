@@ -22,7 +22,7 @@ const emit = defineEmits(['favor'])
 					{{ props.car.description }}
 				</p>
 			</div>
-			<h1 class="mt-auto text-xl">${{ props.car.price }} hehe</h1>
+			<h1 class="mt-auto text-xl">${{ props.car.price }}</h1>
 		</div>
 	</div>
 </div>
