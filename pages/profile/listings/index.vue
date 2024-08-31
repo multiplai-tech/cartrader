@@ -2,8 +2,9 @@
 definePageMeta({
   layout: "custom",
 });
+const user = useSupabaseUser()
+const { data: listings } = await useFetch(`/api/car/listings/user/${user.value.id}`)
 
-const { listings } = useCars();
 </script>
 
 <template>
