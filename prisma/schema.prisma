@@ -20,6 +20,7 @@ model Car {
 	numberOfSeats	Int
 	miles			Int
 	price			Int
+	year			Int
 	image			String
 	features		String[]
 	description		String
@@ -28,6 +29,7 @@ model Car {
 	make			String
 	createdBy		String
 	message			Message[]
+	listerId		String
 }
 
 model Message {
